@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 4.375em 6.875em;
-  gap: 2.5em;
+  gap: 6em;
 }
 
 .main_container > h1 {
@@ -23,6 +23,54 @@
 }
 
 .about_logos_container > div {
+  display: flex;
+  gap: 3.75em;
+}
+
+.aboutCards_main_container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top_heading {
+  font-size: 1.9em;
+  font-weight: 700;
+}
+
+.bottom_heading {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.about_cards_upper_container,
+.about_cards_bottom_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3.125em;
+  border-radius: 30px;
+}
+
+.about_cards_upper_container {
+  width: 75em;
+  position: absolute;
+  top: 6em;
+  background-color: white;
+  box-shadow: 0px 0px 30px #dcdcdc;
+  gap: 1em;
+}
+
+.about_cards_bottom_container {
+  width: 64em;
+  height: 26.5em;
+  background-color: #f9f9f9;
+  padding: 3.125em;
+  border-radius: 30px;
+}
+
+.top_image_container {
   display: flex;
   gap: 3.75em;
 }

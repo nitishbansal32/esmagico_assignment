@@ -1,5 +1,6 @@
 import styles from "./About.module.css";
 import LogoProps from "./LogoProps";
+import AboutCards from "./AboutCards";
 import brand_logo1 from "../../assets/brand_logo1.svg";
 import brand_logo2 from "../../assets/brand_logo2.svg";
 import brand_logo3 from "../../assets/brand_logo3.svg";
@@ -56,6 +57,7 @@ const About = () => {
           <LogoProps imgUrl={brand_logo12} style1={logoProps_container_small} />
         </div>
       </div>
+      <AboutCards />
     </div>
   );
 };
